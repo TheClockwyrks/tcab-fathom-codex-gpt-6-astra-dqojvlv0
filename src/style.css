@@ -1,0 +1,6 @@
+/* Preserve the page's viewport-sized canvas when the engine pins an intrinsic
+   size inline at DPR 1. The engine still owns the backing store and stage fit. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+}
